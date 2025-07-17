@@ -50,14 +50,14 @@ const Hero = () => {
             <div className="flex items-center justify-center mb-6">
               <Sparkles className="h-8 w-8 md:h-12 md:w-12 text-primary animate-pulse mr-4" />
               <h1 className="text-4xl md:text-6xl font-bold text-gradient animate-gradient bg-gradient-primary bg-clip-text text-transparent leading-tight">
-                Ganesh Babu J R
+                GANESH BABU J R
               </h1>
               <Code2 className="h-8 w-8 md:h-12 md:w-12 text-accent animate-bounce ml-4" />
             </div>
             
             {/* Modern Tech Stack Pills */}
             <div className="flex flex-wrap justify-center gap-3 mb-8">
-              {['React', 'TypeScript', 'Node.js', 'Python', 'AI/ML'].map((tech) => (
+              {['SQL', 'PL/SQL', 'Unix', 'Python', 'PHP'].map((tech) => (
                 <span key={tech} className="glass-card px-4 py-2 text-sm font-medium text-primary/90 rounded-full border border-primary/20 hover:shadow-glow transition-elastic">
                   {tech}
                 </span>
