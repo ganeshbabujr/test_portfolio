@@ -49,7 +49,7 @@ const Hero = () => {
             {/* Ultra Modern Animated Title with Icons */}
             <div className="flex items-center justify-center mb-6">
               <Sparkles className="h-8 w-8 md:h-12 md:w-12 text-primary animate-pulse mr-4" />
-              <h1 className="text-6xl md:text-8xl font-bold text-gradient animate-gradient bg-gradient-primary bg-clip-text text-transparent leading-tight">
+              <h1 className="text-4xl md:text-8xl font-bold text-gradient animate-gradient bg-gradient-primary bg-clip-text text-transparent leading-tight">
                 Ganesh Babu J R
               </h1>
               <Code2 className="h-8 w-8 md:h-12 md:w-12 text-accent animate-bounce ml-4" />
